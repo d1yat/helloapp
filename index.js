@@ -8,4 +8,7 @@ const users = [
     new Person("Rido", "Raudho")
 ];
 
-users.forEach(user => console.log(user.getFullName()));
+for (const user of users) {
+    console.log(user.getFullName());
+}
+// users.forEach(user => console.log(user.getFullName()));
