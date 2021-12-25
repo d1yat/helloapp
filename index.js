@@ -5,7 +5,8 @@ const users = [
     new Person("Andris", "Firmansyah"),
     new Person("Akhirudin", "Sudiyat"),
     new Person("Bani", "Arham"),
-    new Person("Rido", "Raudho")
+    new Person("Rido", "Raudho"),
+    new Person("John", "Doe")
 ];
 
 const names = users.map((item, index) => {
