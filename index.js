@@ -8,7 +8,12 @@ const users = [
     new Person("Rido", "Raudho")
 ];
 
-for (const user of users) {
-    console.log(user.getFullName());
+const names = users.map((item, index) => {
+    return `(${index}) => ${item.getFullName()}`;
+});
+
+for (var i = 0; i < names.length; i++) {
+    console.log(names[i]);
 }
+
 // users.forEach(user => console.log(user.getFullName()));
